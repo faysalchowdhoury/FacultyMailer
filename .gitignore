@@ -1,0 +1,32 @@
+# Build artifacts
+build/
+dist/
+build_env/
+*.spec.bak
+python-3.12.9-amd64.exe
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Runtime data / secrets (generated locally by the app - never commit these)
+settings.json
+send_history.json
+*.log
+
+# Campaign assets are personal (CVs, cover letters, faculty lists) - keep local
+/Postdoc Email/
+*.xlsx
+!**/sample_*.xlsx
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
