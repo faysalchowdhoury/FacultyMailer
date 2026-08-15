@@ -1,7 +1,7 @@
 # FacultyMailer
 
 A Windows desktop app (PySide6) that automates the mechanics of reaching out
-to faculty for postdoc/research-position inquiries: it scrapes a department's
+to faculty for HigherStudy/Masters/PhD/postdoc/research-position inquiries: it scrapes a department's
 faculty directory, filters the list down to people worth emailing, optionally
 personalizes each message with AI, and sends through Gmail with a
 human-approved preview step and a daily send cap.
@@ -100,7 +100,7 @@ AI settings field.
 
 ```powershell
 build_env\Scripts\Activate.ps1
-python build_installer.py
+python build_installer.py --debug
 ```
 
 Produces `dist/FacultyMailer-Setup.exe` (a windowed, one-file PyInstaller
